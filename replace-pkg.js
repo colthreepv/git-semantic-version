@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { join } = require('path')
 
 const VERSION = process.argv[2]
