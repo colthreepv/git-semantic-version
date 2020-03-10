@@ -1,0 +1,32 @@
+{
+  "name": "git-semantic-version",
+  "version": "1.0.0",
+  "description": "Simple versioning system compatible with semver, based on git. Dockerizable",
+  "main": "version.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colthreepv/git-semantic-version.git"
+  },
+  "keywords": [
+    "docker",
+    "git",
+    "semver",
+    "version"
+  ],
+  "author": {
+    "name": "colthreepv",
+    "url": "https://github.com/colthreepv"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colthreepv/git-semantic-version/issues"
+  },
+  "bin": {
+    "git-semantic-version": "./version.js",
+    "git-semantic-replace": "./replace.js"
+  },
+  "homepage": "https://github.com/colthreepv/git-semantic-version#readme"
+}
