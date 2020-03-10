@@ -14,9 +14,9 @@ Example: last tag is `v1.4`, since that, 2 commits have been made, the resulting
 
 ### git-semantic-version
 ```
-git-semantic-version <output from git describe>
+git-semantic-version [directory]
 ```
-what the command expects it's the output from `git describe --tags --always`
+`directory` is optional, if not provided, it will use the `Current Working Directory`
 
 # git-semantic-replace
 ```
@@ -24,7 +24,6 @@ git-semantic-replace <valid semver> <destination directory>`
 ```
 This is an helper for node.js projects, it helps replacing the value inside _package.json_ `version` field  
 It **requires** a source package.json in the **Current Working Directory**
-
 
 # Docker build
 ```
